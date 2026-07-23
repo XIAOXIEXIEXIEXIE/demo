@@ -117,7 +117,7 @@ function handleLogout() {
     <div class="header-right">
       <span class="role-tag">
         <Tag v-if="isAdmin" color="purple">管理员</Tag>
-        <Tag v-else>用户</Tag>
+        <Tag v-else color="blue">用户</Tag>
       </span>
       <Button class="logout-btn" size="small" @click="handleLogout">退出</Button>
     </div>

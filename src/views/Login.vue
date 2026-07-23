@@ -101,7 +101,7 @@ function handleLogin() {
           </div>
           <p class="field-error">{{ passwordError }}</p>
         </div>
-        <div class="login-hint">管理员：admin / 任意密码&nbsp;&nbsp;|&nbsp;&nbsp;普通用户：其他用户名</div>
+        <div class="login-hint">管理员：admin / 任意密码&nbsp;&nbsp;|&nbsp;&nbsp;普通用户：任意值</div>
         <div class="btn-group">
           <button type="submit" class="login-btn">登录</button>
           <button type="button" class="reset-btn" @click="handleReset">重置</button>
